@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ZAHB Estates | Premium Real Estate & Property Management",
+  title: "ZAJHAB Estates | Premium Real Estate & Property Management",
   description: "Secure verified farm lands, residential estates, and premium properties in Lagos, Nigeria. Expert estate management and property development services.",
   keywords: "real estate, land sales, estate management, property development, Lagos, Nigeria, farm lands, residential estates",
-  authors: [{ name: "ZAHB Estates" }],
+  authors: [{ name: "ZAJHAB Estates" }],
   openGraph: {
-    title: "ZAHB Estates | Premium Real Estate & Property Management",
+    title: "ZAJHAB Estates | Premium Real Estate & Property Management",
     description: "Secure verified farm lands, residential estates, and premium properties in Lagos, Nigeria.",
     type: "website",
   },

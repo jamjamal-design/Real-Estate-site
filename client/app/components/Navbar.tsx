@@ -16,7 +16,7 @@ const Navbar = () => {
               <Home size={20} className="text-white" />
             </div>
             <span className="text-xl font-bold tracking-tight">
-              ZAHB <span className="text-green-400">Estates</span>
+              ZAJHAB <span className="text-green-400">Estates</span>
             </span>
           </Link>
           

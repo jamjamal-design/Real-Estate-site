@@ -276,12 +276,12 @@ export default function HomePage() {
             />
           </div>
           <div className="md:w-1/2">
-            <h2 className="text-4xl font-bold text-slate-900 mb-6">About ZAHB Estates</h2>
+            <h2 className="text-4xl font-bold text-slate-900 mb-6">About ZAJHAB Estates</h2>
             <p className="text-gray-700 text-lg mb-4">
-              At ZAHB Estates, we are committed to transforming the real estate landscape by providing secure, verified properties that empower our clients to build lasting wealth. With over a decade of experience, our team of experts specializes in land sales, estate management, buying farm lands or farm management and project development across Nigeria.
+              At ZAJHAB Estates, we are committed to transforming the real estate landscape by providing secure, verified properties that empower our clients to build lasting wealth. With over a decade of experience, our team of experts specializes in land sales, estate management, buying farm lands or farm management and project development across Nigeria.
             </p>
             <p className="text-gray-700 text-lg">
-              Our mission is to deliver exceptional value through transparency, integrity, and personalized service. Whether you're looking to invest in farm lands, residential estates, or commercial properties, ZAHB Estates is your trusted partner every step of the way.   
+              Our mission is to deliver exceptional value through transparency, integrity, and personalized service. Whether you're looking to invest in farm lands, residential estates, or commercial properties, ZAJHAB Estates is your trusted partner every step of the way.   
             </p>
           </div>
         </div>

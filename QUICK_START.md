@@ -1,4 +1,4 @@
-# ZAHB Estates - Quick Start Guide
+# ZAJHAB Estates - Quick Start Guide
 
 ## ✅ Current Status
 
@@ -151,7 +151,7 @@ lsof -ti:3000 | xargs kill -9
 - Add more properties via admin dashboard
 - Test booking submission from contact page
 - Monitor real-time notifications
-- Customize branding (already changed to "ZAHB Estates")
+- Customize branding (already changed to "ZAJHAB Estates")
 - Add your actual contact information in Footer/Contact page
 
 ---

@@ -1,4 +1,4 @@
-# Deployment Guide for ZAHB Estates
+# Deployment Guide for ZAJHAB Estates
 
 ## Prerequisites
 - Vercel account (https://vercel.com)

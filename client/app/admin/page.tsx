@@ -437,7 +437,7 @@ const AdminDashboard = () => {
             <div className="inline-block p-4 bg-white/10 backdrop-blur-sm rounded-2xl mb-4">
               <Home size={48} className="text-green-400" />
             </div>
-            <h1 className="text-4xl font-bold text-white mb-2">ZAHB Estates</h1>
+            <h1 className="text-4xl font-bold text-white mb-2">ZAJHAB Estates</h1>
             <p className="text-green-300 text-lg">Admin Portal</p>
           </div>
 
@@ -499,7 +499,7 @@ const AdminDashboard = () => {
 
           {/* Footer */}
           <p className="text-center text-white/60 text-sm mt-6">
-            © 2024 ZAHB Estates. Secure Admin Portal.
+            © 2024 ZAJHAB Estates. Secure Admin Portal.
           </p>
         </div>
       </div>

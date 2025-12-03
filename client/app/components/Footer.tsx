@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="text-xl font-bold mb-4">
-              ZAHB<span className="text-green-400"> Estates</span>
+              ZAJHAB<span className="text-green-400"> Estates</span>
             </h3>
             <p className="text-gray-400 text-sm">
               Your trusted partner in real estate investment. We provide verified lands and comprehensive property management services.
@@ -52,7 +52,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={16} className="text-green-400" />
-                info@ZAHB ESTATES.com
+                info@ZAJHAB ESTATES.com
               </li>
             </ul>
             
@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-slate-800 pt-6 text-center text-sm text-gray-400">
-          <p>&copy; {new Date().getFullYear()} ZAHB ESTATES. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} ZAJHAB ESTATES. All rights reserved.</p>
         </div>
       </div>
     </footer>

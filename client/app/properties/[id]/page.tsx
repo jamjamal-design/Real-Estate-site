@@ -278,7 +278,7 @@ const PropertyDetailsPage = () => {
 
             {/* Quick Info */}
             <div className="bg-green-50 border border-green-200 rounded-2xl p-6">
-              <h4 className="font-bold text-slate-900 mb-3">Why Choose ZAHB Estates?</h4>
+              <h4 className="font-bold text-slate-900 mb-3">Why Choose ZAJHAB Estates?</h4>
               <ul className="space-y-2 text-sm text-gray-700">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="text-green-500 mt-0.5 flex-shrink-0" size={16} />
