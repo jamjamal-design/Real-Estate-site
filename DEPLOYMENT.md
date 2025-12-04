@@ -26,7 +26,7 @@
 
 5. Set environment variables in Vercel dashboard:
    - Go to your project settings on Vercel
-   - Navigate to "Environment Variables"
+   - Navigate to "Environment Variables".
    - Add the following:
      - `MONGODB_URI`: Your MongoDB Atlas connection string
      - `ADMIN_TOKEN`: Adesinar12345.
