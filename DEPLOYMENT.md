@@ -16,7 +16,7 @@
 3. Login to Vercel:
    ```bash
    vercel login
-   ```
+   ```.
 
 4. Deploy backend:
    ```bash
