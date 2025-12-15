@@ -2,40 +2,39 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-// Uncomment when packages are installed:
-// const helmet = require('helmet');
-// const compression = require('compression');
-// const morgan = require('morgan');
-// const rateLimit = require('express-rate-limit');
+const helmet = require('helmet');
+const compression = require('compression');
+const morgan = require('morgan');
+const rateLimit = require('express-rate-limit');
 
 const app = express();
 
 // Security Headers - Uncomment when helmet is installed
-// app.use(helmet());
+app.use(helmet());
 
 // Compression - Uncomment when compression is installed
-// app.use(compression());
+app.use(compression());
 
 // HTTP Request Logging - Uncomment when morgan is installed
-// if (process.env.NODE_ENV === 'production') {
-//   app.use(morgan('combined'));
-// } else {
-//   app.use(morgan('dev'));
-// }
+if (process.env.NODE_ENV === 'production') {
+  app.use(morgan('combined'));
+} else {
+  app.use(morgan('dev'));
+}
 
 // Rate Limiting - Uncomment when express-rate-limit is installed
-// const limiter = rateLimit({
-//   windowMs: 15 * 60 * 1000, // 15 minutes
-//   max: 100, // Limit each IP to 100 requests per windowMs
-//   message: 'Too many requests from this IP, please try again later.'
-// });
-// const adminLimiter = rateLimit({
-//   windowMs: 15 * 60 * 1000,
-//   max: 20, // Stricter limit for admin routes
-//   message: 'Too many admin requests, please try again later.'
-// });
-// app.use('/api/', limiter);
-// app.use('/api/admin', adminLimiter);
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // Limit each IP to 100 requests per windowMs
+  message: 'Too many requests from this IP, please try again later.'
+});
+const adminLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 20, // Stricter limit for admin routes
+  message: 'Too many admin requests, please try again later.'
+});
+app.use('/api/', limiter);
+app.use('/api/admin', adminLimiter);
 
 // CORS Configuration
 const corsOptions = {

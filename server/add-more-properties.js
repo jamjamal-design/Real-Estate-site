@@ -70,7 +70,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/real-esta
     
     
     inserted.forEach(prop => {
-       - ₦${prop.price.toLocaleString()}`);
+      console.log(`✅ Added: ${prop.title} - ₦${prop.price.toLocaleString()}`);
     });
     
     const total = await Property.countDocuments();
